@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: cursive;
+    font-weight: 500;
+}
+
+header {
+    height: 100px;
+    width: auto;
+    border-bottom: 5px solid white;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+
+/* -------logo--------*/
+.logo {
+    font-size: 40px;
+}
+
+.logo span {
+    color: rgb(143, 143, 143);
+}
+
+
+/*-------navbar----*/
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li {
+    list-style: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+/*------section---*/
+
+section{
+    background-image: url(./technology-3243375_1920.jpg)
+}
+
+.sec1 {
+    
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.spec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 300px;
+}
+
+.dp {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+img {
+    width: 320px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.info {
+
+    font-size: 50px;
+    color: rgb(201, 201, 201);
+    backdrop-filter: blur(5px);
+}
+
+/*------footer-----*/
+
+footer {
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ico {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 30%;
+}
+
+/*--------icons -----*/
+
+.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .fa-instagram {
+    color: rgb(190, 48, 72);
+    font-size: 50px;
+
+}
+
+footer .fa-linkedin {
+    font-size: 50px;
+
+}
+
+.float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 4px solid black ;
+    height: 100px;
+    width: 150px;
+
+}
+
+footer .float .fa-facebook {
+    font-size: 50px;
+}
+
+footer .float .fa-twitter {
+    font-size: 50px;
+    color: aqua;
+}
+
+footer .float .fa-snapchat {
+    font-size: 50px;
+    color: yellow;
+}
+
+footer .float .fa-youtube {
+    font-size: 50px;
+    color: red;
+}
+footer .float .a{
+    animation: flot 3s linear infinite;
+}
+
+@keyframes flot {
+    0%,100%{
+        transform: translateY(0px);
+        
+        
+    }
+    50%{
+        transform: translateY(-23px);
+        
+    }
+}
+footer .float :nth-child(1){
+    animation-delay: .2s;
+}
+footer .float :nth-child(2){
+    animation-delay: .4s;
+}
+footer .float :nth-child(3){
+    animation-delay: .6s;
+}
+footer .float :nth-child(4){
+    animation-delay: .8s;
+}
+footer .float :nth-child(5){
+    animation-delay: .2s;
+}
+
+/*-----images------*/
+
+.spec img{
+    height: 100px;
+    width: 100px;
+}
